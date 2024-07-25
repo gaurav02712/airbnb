@@ -9,16 +9,30 @@ import SwiftUI
 
 struct ExploreView: View {
     @State private var properties: [Property] = Property.sampleData()
-
+    
     var body : some View {
         NavigationStack{
-            List(properties) { property in
-                PropertyCell(property: property)
+            
+            ScrollView {
+                SearchFilterBar(location: nil, duration: nil, guest: nil)
+                    Spacer(minLength: 32)
+                LazyVStack(spacing:32) {
+                    ForEach(properties) { property in
+                        PropertyCell(property: property)
+                    }
+                }
+                .padding(.horizontal)
             }
-            .navigationTitle("Explore")
-            .toolbar {
-                
+            
+            /*
+            VStack(spacing: 100) {
+                SearchFilterBar(location: nil, duration: nil, guest: nil)
+                List(properties) { property in
+                    
+                    PropertyCell(property: property)
+                }
             }
+             */
         }
     }
 }

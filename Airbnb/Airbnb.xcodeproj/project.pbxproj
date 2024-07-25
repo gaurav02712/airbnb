@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4603953E2C50D2AB00343D7E /* SearchFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603953D2C50D2AB00343D7E /* SearchFilterBar.swift */; };
 		466D925F2C4F848F007F5ECE /* AirbnbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D925E2C4F848F007F5ECE /* AirbnbApp.swift */; };
 		466D92612C4F848F007F5ECE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D92602C4F848F007F5ECE /* ContentView.swift */; };
 		466D92632C4F8493007F5ECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466D92622C4F8493007F5ECE /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4603953D2C50D2AB00343D7E /* SearchFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterBar.swift; sourceTree = "<group>"; };
 		466D925B2C4F848F007F5ECE /* Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466D925E2C4F848F007F5ECE /* AirbnbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbApp.swift; sourceTree = "<group>"; };
 		466D92602C4F848F007F5ECE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				466D927A2C50075C007F5ECE /* ExploreView.swift */,
+				4603953D2C50D2AB00343D7E /* SearchFilterBar.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				466D92792C4FC3BB007F5ECE /* Property.swift in Sources */,
 				466D92612C4F848F007F5ECE /* ContentView.swift in Sources */,
 				466D927D2C500855007F5ECE /* PropertyCell.swift in Sources */,
+				4603953E2C50D2AB00343D7E /* SearchFilterBar.swift in Sources */,
 				466D927B2C50075C007F5ECE /* ExploreView.swift in Sources */,
 				466D925F2C4F848F007F5ECE /* AirbnbApp.swift in Sources */,
 			);

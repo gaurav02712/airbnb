@@ -30,11 +30,22 @@ struct Property: Identifiable {
                                 tertiaryTitle: "Aug 1-6",
                                 price: Price(unit: "night",
                                              value: 97380, currency: "INR"))
-        let property2 = Property(imageNames: sampleImages,
+        let property2 = Property(imageNames: sampleImages.shuffled(),
                                  title: "Raigad, India",
                                  subtitle: "1,184 KM away",
                                  tertiaryTitle: "Aug 10-16",
                                  price: Price(unit: "night", value: 84380, currency: "INR"))
-        return [property, property2]
+        let property3 = Property(imageNames: sampleImages.shuffled(),
+                                title: "Morjim, India",
+                                subtitle: "1,484 KM away",
+                                tertiaryTitle: "Aug 1-6",
+                                price: Price(unit: "night",
+                                             value: 97380, currency: "INR"))
+        let property4 = Property(imageNames: sampleImages.shuffled(),
+                                 title: "Raigad, India",
+                                 subtitle: "1,184 KM away",
+                                 tertiaryTitle: "Aug 10-16",
+                                 price: Price(unit: "night", value: 84380, currency: "INR"))
+        return [property, property2, property3, property4, property, property2, property3, property4]
     }
 }
